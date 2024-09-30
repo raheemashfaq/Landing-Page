@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Inter" ;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --btn-color:#4CAF4F;
+    --p-color:#717171;
+}
+body{
+    background-color: #fff;
+}
+.nav_btn{
+    background: var(--btn-color);
+    color: #fff;
+}
+.nav-btn{
+    color: var(--btn-color);
+}
+/* hero section  */
+.hero-section .hero_heading h1{
+
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 66px;
+}
+.hero-section .hero_heading h1 span{
+    color: var(--btn-color);
+}
+/* hero section  */
+.hero-section .hero_heading p{
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: var(--p-color);
+
+}
+/* hero section  */
+.hero-section .hero_heading .hero_btn{
+    background: var(--btn-color);
+    color: #fff;
+}
+.hero-section .hero_img img{
+        margin-left: 100px;
+}
+/* clients
+ */
+ .clients{
+    background-color: #fff;
+ }
+.clients h2{
+    color: #4D4D4D;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+
+}
+
+.clients  p{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #717171;
+}
+.client_logos img{
+    margin: 0 75px;
+}
+/* community  */
+.community h2{
+    color: #4D4D4D;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+}
+.community p{
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #717171;
+
+}
+.community .card_1 h3{
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #4D4D4D;
+    
+}
+.community .card_1 p{
+
+font-size: 14px;
+font-weight: 400;
+color: #717171;
+
+}
+.community .card_2 h3{
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #4D4D4D;
+    
+}
+.community .card_2 p{
+
+font-size: 14px;
+font-weight: 400;
+color: #717171;
+
+}
+.community .card_3 h3{
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #4D4D4D;
+    
+}
+.community .card_3 p{
+
+font-size: 14px;
+font-weight: 400;
+color: var(--p-color);
+
+}
+
+/* unlock community  */
+.community .community_unlock h2{
+    color: #4D4D4D;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+
+
+}
+.community .community_unlock p{
+    color: var(--p-color);
+
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+
+
+}
+.community .community_unlock .unlock_btn{
+background-color: var(--btn-color);
+color: #fff;
+}
+
+/* achievements  */
+.achievement_section{
+    background: #F5F7FA;
+}
+
+.achievements .achievements_heading h2{
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+}
+.achievements .achievements_heading h2 span{
+    color: var(--btn-color);
+}
+.achievements .achievements_heading p{
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #18191F;
+
+}
+/* calender  */
+.calender .calender_heading h2{
+font-size: 32px;
+font-weight: 600;
+line-height: 44px;
+color: #4D4D4D;
+
+}
+.calender .calender_heading p{
+font-size: 12.9px;
+/* font-weight: 400; */
+/* line-height: 20px; */
+color: var(--p-color);
+}
+.calender .calender_heading .sign_up{
+    background: var(--btn-color);
+    color: #fff;
+}
+/* customers  */
+.customers .customer_logos img{
+    cursor: pointer;
+}
+.customers .customer_logos h4{
+    color: var(--btn-color);
+    cursor: pointer;
+}
+/* updates  */
+.updates .updates_heading h2{
+
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+color: #4D4D4D;
+
+}
+.updates .updates_heading p{
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: var(--p-color);
+
+}
+
+/* updates  */
+.updates_cards .updates_head{
+    background: #F5F7FA;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.updates_cards .updates_head h4{
+
+font-size: 20px;
+font-weight: 600;
+/* line-height: 28px; */
+color: var(--p-color);
+
+}
+/* .updates_cards {
+    position: relative;
+} */
+.card1{
+    position: relative;
+}
+.updates_cards .card1_img{
+    background: url(../assets/card1.png);
+    width: 368px;
+    height: 286px;
+
+}
+.updates_cards .updates_head{
+    position: absolute;
+    top: 13rem;
+    left: 2rem;
+}
+.updates_cards .updates_head p{
+font-size: 20px;
+font-weight: 600;
+/* line-height: 28px; */
+color: var(--btn-color);
+}
+.card2{
+    position: relative;
+}
+.updates_cards .card2_img{
+    background: url(../assets/card2.png);
+    width: 368px;
+    height: 286px;
+}
+.updates_cards .updates_head{
+    position: absolute;
+    top: 13rem;
+    left: 2rem;
+}
+.updates_cards .updates_head p{
+font-size: 20px;
+font-weight: 600;
+/* line-height: 28px; */
+color: var(--btn-color);
+}
+.card3{
+    position: relative;
+}
+.updates_cards .card3_img{
+    background: url(../assets/card3.png);
+    width: 368px;
+    height: 286px;
+}
+.updates_cards .updates_head{
+    position: absolute;
+    top: 13rem;
+    left: 2rem;
+}
+.updates_cards .updates_head p{
+font-size: 20px;
+font-weight: 600;
+/* line-height: 28px; */
+color: var(--btn-color);
+}
+/* demo  */
+.demo_class{
+    background: #F5F7FA;
+    text-align: center;
+    padding: 32px 0px 32px 0px;
+    gap: 32px;
+    opacity: 0px;
+
+}
+.demo h1{
+
+font-size: 64px;
+font-weight: 600;
+line-height: 76px;
+
+
+}
+.demo button{
+background: var(--btn-color);
+color: #fff;
+
+}
+.demo button:hover{
+    background: var(--btn-color) !important;
+    color: #fff;
+}
+
+/* footer  */
+footer{
+    background: #263238;
+}
+.footer .footer_social p{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+color: #fff;
+
+}
+.footer .footer_email input{
+background: #263238;
+
+
+
+}
+.footer .footer_email input[type=email]{
+    color: #fff;
+    font-size: 16px;
+}
+.footer_comapny , .footer_support , .footer_email {
+    color: #fff;
+}
